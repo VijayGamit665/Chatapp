@@ -23,6 +23,6 @@ public class Room {
 
     // Setter for messages
     public void setMessages(List<Message> messages) {
-        this.messages = messages;
+        this.messages = messages; // etc
     }
 }
