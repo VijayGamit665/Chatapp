@@ -45,7 +45,7 @@ public class RoomController {
         return ResponseEntity.ok(room);
     }
 
-    // Get messages of a room with pagination
+    // Get messages of a room with pagination ....
     @GetMapping("/{roomId}/messages")
     public ResponseEntity<List<Message>> getMessages(
             @PathVariable String roomId,
